@@ -4,7 +4,7 @@ A minimal **OpenGL + FreeGLUT** program that demonstrates a 3D **Sun → Earth �
 
 ---
 
-## ✨ Features
+##  Features
 
 - Hierarchical structure using matrix stack (`glPushMatrix` / `glPopMatrix`)
 - Orbital motion + self-rotation for Earth and Moon
@@ -14,7 +14,7 @@ A minimal **OpenGL + FreeGLUT** program that demonstrates a 3D **Sun → Earth �
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 You need:
 - C++ Compiler (MinGW-w64 on Windows / GCC on Linux)
@@ -23,7 +23,7 @@ You need:
 
 ---
 
-## 🪟 Windows (MinGW-w64 + FreeGLUT)
+##  Windows (MinGW-w64 + FreeGLUT)
 
 1. Install **MinGW-w64** and **FreeGLUT development files**
 2. Ensure the following are available in PATH / INCLUDE / LIB:
@@ -34,3 +34,4 @@ You need:
 
 ```bash
 g++ main.cpp -lfreeglut -lopengl32 -lglu32 -o solar_system.exe
+
